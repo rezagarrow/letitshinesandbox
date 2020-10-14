@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Ticket record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 2,
+  "OrderIndex": 14,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -56,6 +56,22 @@
           {
             "name": "Description",
             "value": "[Record:Description]"
+          },
+          {
+            "name": "Type",
+            "value": "[Record:Type]"
+          },
+          {
+            "name": "Status",
+            "value": "[Record:Status]"
+          },
+          {
+            "name": "StartDate",
+            "value": "[Record:StartDate]"
+          },
+          {
+            "name": "EndDate",
+            "value": "[Record:EndDate]"
           }
         ],
         "Headers": []
