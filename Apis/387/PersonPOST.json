@@ -66,6 +66,33 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "DNNUserId",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 5,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Email",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 6,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Phone",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 7,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -78,7 +105,10 @@
         "FirstName": "[FirstName]",
         "LastName": "[LastName]",
         "Type": "[Type]",
-        "Disabled": "[Disabled]"
+        "Disabled": "[Disabled]",
+        "DNNUserId": "[DNNUserId]",
+        "Email": "[Email]",
+        "Phone": "[Phone]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -130,6 +160,18 @@
           {
             "name": "Disabled",
             "value": "[CreatedRecord:Disabled]"
+          },
+          {
+            "name": "DNNUserId",
+            "value": "[CreatedRecord:DNNUserId]"
+          },
+          {
+            "name": "Email",
+            "value": "[CreatedRecord:Email]"
+          },
+          {
+            "name": "Phone",
+            "value": "[CreatedRecord:Phone]"
           }
         ],
         "Headers": [
