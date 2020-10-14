@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided Ticket record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 3,
+  "OrderIndex": 15,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -48,6 +48,42 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Type",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Status",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "StartDate",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 5,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "EndDate",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 6,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -57,7 +93,11 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Name": "[Name]",
-        "Description": "[Description]"
+        "Description": "[Description]",
+        "Type": "[Type]",
+        "Status": "[Status]",
+        "StartDate": "[StartDate]",
+        "EndDate": "[EndDate]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
