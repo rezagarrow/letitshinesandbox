@@ -1,10 +1,13 @@
 <module type="ActionForm" version="05.10.02.00">
+    <contentKey />
     <moduleID>433</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Attachements Add Existing Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>e4d2b3d8-be73-4cac-8202-1b9f160fd93d</uniqueId>
+    <uniqueId>bf14f9c6-bc04-4ad4-bab6-aaf6210d664f</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
