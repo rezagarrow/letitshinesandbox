@@ -83,6 +83,33 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "DNNUserId",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 6,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Email",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 7,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Phone",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 8,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -95,7 +122,10 @@
         "FirstName": "[FirstName]",
         "LastName": "[LastName]",
         "Type": "[Type]",
-        "Disabled": "[Disabled]"
+        "Disabled": "[Disabled]",
+        "DNNUserId": "[DNNUserId]",
+        "Email": "[Email]",
+        "Phone": "[Phone]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
