@@ -68,6 +68,18 @@
           {
             "name": "Disabled",
             "value": "[Record:Disabled]"
+          },
+          {
+            "name": "DNNUserId",
+            "value": "[Record:DNNUserId]"
+          },
+          {
+            "name": "Email",
+            "value": "[Record:Email]"
+          },
+          {
+            "name": "Phone",
+            "value": "[Record:Phone]"
           }
         ],
         "Headers": []
