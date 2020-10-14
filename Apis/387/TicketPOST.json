@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Ticket",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 1,
+  "OrderIndex": 13,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -31,6 +31,42 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Type",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Status",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "StartDate",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "EndDate",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 5,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -40,7 +76,11 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "Name": "[Name]",
-        "Description": "[Description]"
+        "Description": "[Description]",
+        "Type": "[Type]",
+        "Status": "[Status]",
+        "StartDate": "[StartDate]",
+        "EndDate": "[EndDate]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -80,6 +120,22 @@
           {
             "name": "Description",
             "value": "[CreatedRecord:Description]"
+          },
+          {
+            "name": "Type",
+            "value": "[CreatedRecord:Type]"
+          },
+          {
+            "name": "Status",
+            "value": "[CreatedRecord:Status]"
+          },
+          {
+            "name": "StartDate",
+            "value": "[CreatedRecord:StartDate]"
+          },
+          {
+            "name": "EndDate",
+            "value": "[CreatedRecord:EndDate]"
           }
         ],
         "Headers": [
