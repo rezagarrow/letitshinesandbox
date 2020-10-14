@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Person",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 29,
+  "OrderIndex": 37,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -40,6 +40,32 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Type",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"Type is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    },
+    {
+      "Name": "Disabled",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -50,7 +76,9 @@
         "OutputToken": "CreatedRecordId",
         "DisplayName": "[DisplayName]",
         "FirstName": "[FirstName]",
-        "LastName": "[LastName]"
+        "LastName": "[LastName]",
+        "Type": "[Type]",
+        "Disabled": "[Disabled]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -94,6 +122,14 @@
           {
             "name": "LastName",
             "value": "[CreatedRecord:LastName]"
+          },
+          {
+            "name": "Type",
+            "value": "[CreatedRecord:Type]"
+          },
+          {
+            "name": "Disabled",
+            "value": "[CreatedRecord:Disabled]"
           }
         ],
         "Headers": [
