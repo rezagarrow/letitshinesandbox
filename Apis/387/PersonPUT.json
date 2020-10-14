@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided Person record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 31,
+  "OrderIndex": 39,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -57,6 +57,32 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Type",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"Type is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    },
+    {
+      "Name": "Disabled",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 5,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -67,7 +93,9 @@
         "RecordId": "[RecordId]",
         "DisplayName": "[DisplayName]",
         "FirstName": "[FirstName]",
-        "LastName": "[LastName]"
+        "LastName": "[LastName]",
+        "Type": "[Type]",
+        "Disabled": "[Disabled]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
