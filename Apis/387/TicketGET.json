@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Ticket record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 14,
+  "OrderIndex": 22,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
