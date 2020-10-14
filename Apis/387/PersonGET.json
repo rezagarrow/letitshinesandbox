@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Person record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 30,
+  "OrderIndex": 38,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -60,6 +60,14 @@
           {
             "name": "LastName",
             "value": "[Record:LastName]"
+          },
+          {
+            "name": "Type",
+            "value": "[Record:Type]"
+          },
+          {
+            "name": "Disabled",
+            "value": "[Record:Disabled]"
           }
         ],
         "Headers": []
