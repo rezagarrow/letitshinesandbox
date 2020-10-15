@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided Ticket record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 23,
+  "OrderIndex": 51,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -84,6 +84,33 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Originator",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 7,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Owner",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 8,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "AssignedTo",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 9,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -97,7 +124,10 @@
         "Type": "[Type]",
         "Status": "[Status]",
         "StartDate": "[StartDate]",
-        "EndDate": "[EndDate]"
+        "EndDate": "[EndDate]",
+        "Originator": "[Originator]",
+        "Owner": "[Owner]",
+        "AssignedTo": "[AssignedTo]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
