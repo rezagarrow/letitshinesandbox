@@ -1,10 +1,13 @@
 <module type="ActionForm" version="05.10.02.00">
+    <contentKey />
     <moduleID>435</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Activity Add Existing Form</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>c8868aa7-b768-4761-a376-73c6ea1220e6</uniqueId>
+    <uniqueId>8f0586b7-05f3-4ffe-909e-acbfd597275a</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Form</definition>
