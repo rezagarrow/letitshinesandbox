@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Ticket",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 21,
+  "OrderIndex": 49,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -67,6 +67,33 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Originator",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 6,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Owner",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 7,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "AssignedTo",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 8,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -80,7 +107,10 @@
         "Type": "[Type]",
         "Status": "[Status]",
         "StartDate": "[StartDate]",
-        "EndDate": "[EndDate]"
+        "EndDate": "[EndDate]",
+        "Originator": "[Originator]",
+        "Owner": "[Owner]",
+        "AssignedTo": "[AssignedTo]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -136,6 +166,18 @@
           {
             "name": "EndDate",
             "value": "[CreatedRecord:EndDate]"
+          },
+          {
+            "name": "Originator",
+            "value": "[CreatedRecord:Originator]"
+          },
+          {
+            "name": "Owner",
+            "value": "[CreatedRecord:Owner]"
+          },
+          {
+            "name": "AssignedTo",
+            "value": "[CreatedRecord:AssignedTo]"
           }
         ],
         "Headers": [
