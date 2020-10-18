@@ -3,7 +3,7 @@
   "Description": "Returns the information of a Activity Types record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 42,
+  "OrderIndex": 54,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
