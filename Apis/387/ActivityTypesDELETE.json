@@ -3,7 +3,7 @@
   "Description": "Deletes the provided Activity Types record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 44,
+  "OrderIndex": 56,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
