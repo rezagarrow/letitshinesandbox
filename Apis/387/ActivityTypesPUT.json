@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided Activity Types record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 43,
+  "OrderIndex": 55,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
