@@ -49,10 +49,11 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-history\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eType:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalActivityTypes:Name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eName:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container largetext\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003enotes\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eDetails:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Details=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-history\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eSource:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalPerson:DisplayName=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-history\&quot;\u003e\r\n            \u003c/i\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eTarget:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalPerson:DisplayName=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;,&quot;Align&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-history\&quot;\u003e\n            \u003c/i\u003e\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eType:\u003c/span\u003e\n        \u003c/div\u003e\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalActivityTypes:Name=\u0027-\u0027]\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eName:\u003c/span\u003e\n        \u003c/div\u003e\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Name=\u0027-\u0027]\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\&quot;properties-container largetext\&quot;\u003e\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\n            \u003cspan class=\&quot;material-icons\&quot;\u003enotes\u003c/span\u003e\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eDetails:\u003c/span\u003e\n        \u003c/div\u003e\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Details=\u0027-\u0027]\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-history\&quot;\u003e\n            \u003c/i\u003e\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eSource:\u003c/span\u003e\n        \u003c/div\u003e\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalSource:DisplayName=\u0027-\u0027]\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\&quot;properties-container entityref\&quot;\u003e\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\n            \u003ci class=\&quot;fas fa-fw fa-lg i-icon fa-history\&quot;\u003e\n            \u003c/i\u003e\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eTarget:\u003c/span\u003e\n        \u003c/div\u003e\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[originalTarget:DisplayName=\u0027-\u0027]\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/div\u003e&quot;,&quot;Align&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
       &lt;Align&gt;
         &lt;IsExpression&gt;False&lt;/IsExpression&gt;
         &lt;Expression /&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
       &lt;/Align&gt;
       &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
       &lt;Value&gt;&lt;![CDATA[&lt;div class=&quot;entity-details-container&quot;&gt;
@@ -84,7 +85,7 @@
             &lt;/i&gt;
             &lt;span class=&quot;entity-property-name&quot;&gt;Source:&lt;/span&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;entity-value&quot;&gt;[originalPerson:DisplayName=&#39;-&#39;]&lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[originalSource:DisplayName=&#39;-&#39;]&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;properties-container entityref&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
@@ -92,7 +93,7 @@
             &lt;/i&gt;
             &lt;span class=&quot;entity-property-name&quot;&gt;Target:&lt;/span&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;entity-value&quot;&gt;[originalPerson:DisplayName=&#39;-&#39;]&lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[originalTarget:DisplayName=&#39;-&#39;]&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
@@ -179,7 +180,7 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-20T03:39:13.977&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-20T03:40:06.927&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to view this item.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;430&lt;/ModuleId&gt;
@@ -194,7 +195,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T03:39:13.99&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-20T03:40:06.927&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:Type&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Name&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Details&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Source&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Target&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;430&lt;/ModuleId&gt;
@@ -208,7 +209,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Activity&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T03:39:13.99&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-20T03:40:06.927&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:ActivityId=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;430&lt;/ModuleId&gt;
@@ -223,7 +224,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.ActivityTypes&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T03:39:14.007&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-20T03:40:06.927&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[original:Type]&quot;,&quot;OutputToken&quot;:&quot;originalActivityTypes&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;430&lt;/ModuleId&gt;
@@ -238,7 +239,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Person&lt;/ActionType&gt;
       &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T03:39:14.007&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-20T03:40:06.927&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[original:Source]&quot;,&quot;OutputToken&quot;:&quot;originalSource&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;430&lt;/ModuleId&gt;
@@ -253,7 +254,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Person&lt;/ActionType&gt;
       &lt;OrderIndex&gt;4&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-20T03:39:14.007&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-20T03:40:06.927&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[original:Target]&quot;,&quot;OutputToken&quot;:&quot;originalTarget&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;430&lt;/ModuleId&gt;
