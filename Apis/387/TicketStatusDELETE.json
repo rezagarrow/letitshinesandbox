@@ -3,7 +3,7 @@
   "Description": "Deletes the provided Ticket Status record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 20,
+  "OrderIndex": 60,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
