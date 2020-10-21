@@ -1,0 +1,192 @@
+{
+  "Name": "Person",
+  "Description": "Creates a new record of type Person",
+  "HttpMethod": "POST",
+  "IsEnabled": true,
+  "OrderIndex": 37,
+  "CrossDomainPolicy": "PortalAliasesOnly",
+  "Inputs": [
+    {
+      "Name": "DisplayName",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"DisplayName is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    },
+    {
+      "Name": "FirstName",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "LastName",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Type",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"Type is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    },
+    {
+      "Name": "Disabled",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "DNNUserId",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 5,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Email",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 6,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    },
+    {
+      "Name": "Phone",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 7,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.CreateEntity.0.Person",
+      "OrderIndex": 0,
+      "Parameters": {
+        "OutputToken": "CreatedRecordId",
+        "DisplayName": "[DisplayName]",
+        "FirstName": "[FirstName]",
+        "LastName": "[LastName]",
+        "Type": "[Type]",
+        "Disabled": "[Disabled]",
+        "DNNUserId": "[DNNUserId]",
+        "Email": "[Email]",
+        "Phone": "[Phone]"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.CreateEntity",
+        "EntityIdentifier": "Person"
+      }
+    },
+    {
+      "ActionType": "PlantAnApp.ReadEntity.0.Person",
+      "OrderIndex": 1,
+      "Parameters": {
+        "RecordId": "[CreatedRecordId]",
+        "OutputToken": "CreatedRecord"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.ReadEntity",
+        "EntityIdentifier": "Person"
+      }
+    },
+    {
+      "ActionType": "JsonObject",
+      "OrderIndex": 2,
+      "Parameters": {
+        "HttpCode": "201 Created",
+        "Fields": [
+          {
+            "name": "Id",
+            "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "DisplayName",
+            "value": "[CreatedRecord:DisplayName]"
+          },
+          {
+            "name": "FirstName",
+            "value": "[CreatedRecord:FirstName]"
+          },
+          {
+            "name": "LastName",
+            "value": "[CreatedRecord:LastName]"
+          },
+          {
+            "name": "Type",
+            "value": "[CreatedRecord:Type]"
+          },
+          {
+            "name": "Disabled",
+            "value": "[CreatedRecord:Disabled]"
+          },
+          {
+            "name": "DNNUserId",
+            "value": "[CreatedRecord:DNNUserId]"
+          },
+          {
+            "name": "Email",
+            "value": "[CreatedRecord:Email]"
+          },
+          {
+            "name": "Phone",
+            "value": "[CreatedRecord:Phone]"
+          }
+        ],
+        "Headers": [
+          {
+            "name": "Location",
+            "value": "http://letitshine-sandbox.apps.plantanapp.com/api/Person?recordId=[CreatedRecordId]"
+          }
+        ]
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.Response"
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
