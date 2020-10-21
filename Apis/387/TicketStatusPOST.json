@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type Ticket Status",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 17,
+  "OrderIndex": 57,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -99,7 +99,7 @@
         "Headers": [
           {
             "name": "Location",
-            "value": "http://letitshine-sandbox.apps.plantanapp.com/api/TicketStatus?recordId=[CreatedRecordId]"
+            "value": "http://ticketmaster-sandbox.apps.plantanapp.com/api/TicketStatus?recordId=[CreatedRecordId]"
           }
         ]
       },
