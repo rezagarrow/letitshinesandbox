@@ -1,7 +1,6 @@
 {
   "ApiId": "ba4fce8c08704070d9ab9f",
   "ContextPortal": 0,
-  "ContextUser": 2,
   "IsDebug": false,
   "IsEnabled": true,
   "Name": "Keep Alive",
@@ -34,10 +33,20 @@
   ],
   "Actions": [
     {
-      "ActionType": "PlantAnApp.ExecuteWorkflow.4",
+      "ActionType": "LoadUser",
       "ExecutionType": "OnExecute",
       "IsEnabled": true,
       "OrderIndex": 0,
+      "Parameters": {
+        "Id": "0",
+        "Portal": "0"
+      }
+    },
+    {
+      "ActionType": "PlantAnApp.ExecuteWorkflow.4",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 1,
       "Parameters": {
         "InputHelpText": "",
         "Name": "Test",
