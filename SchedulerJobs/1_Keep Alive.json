@@ -1,0 +1,52 @@
+{
+  "ApiId": "ba4fce8c08704070d9ab9f",
+  "ContextPortal": 0,
+  "ContextUser": -1,
+  "IsDebug": false,
+  "IsEnabled": true,
+  "Name": "Keep Alive",
+  "Triggers": [
+    {
+      "IsEnabled": true,
+      "TriggerDefId": "RepeatInterval",
+      "Parameters": {
+        "Start": {
+          "Date": "",
+          "Time": "12:00:00AM"
+        },
+        "Interval": {
+          "Qty": "10",
+          "Unit": {
+            "Value": "Minutes",
+            "IsExpression": false,
+            "Parameters": {}
+          }
+        },
+        "SkipIfRunning": false,
+        "OnMissfire": {
+          "Expression": "",
+          "Value": "DoNothing",
+          "IsExpression": false,
+          "Parameters": {}
+        }
+      }
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.ExecuteWorkflow.4",
+      "ExecutionType": "OnExecute",
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {
+        "InputHelpText": "",
+        "Name": "Test",
+        "Person": "1",
+        "OutputHelpText": "",
+        "PersonID": "PID",
+        "PersonName": "PName"
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
